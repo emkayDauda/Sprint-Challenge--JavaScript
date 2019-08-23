@@ -83,14 +83,12 @@ The resulting contact information should have a space between the first name and
 Name email@example.com
 
 Log the result of your new array. */
-var contactInfo = [];
-contactInfo = graduates.map(graduate => `${graduate.first_name} ${graduate.email}`)
+const contactInfo = graduates.map(graduate => `${graduate.first_name} ${graduate.email}`)
 console.log(contactInfo);
 
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
-var uni = [];
-uni = graduates.filter(graduate => graduate.university.includes(`Uni`)).map(graduate => graduate.university)
+var uni = graduates.filter(graduate => graduate.university.includes(`Uni`)).map(graduate => graduate.university)
 console.log(uni);
 
 
