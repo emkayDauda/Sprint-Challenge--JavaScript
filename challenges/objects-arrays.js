@@ -41,13 +41,13 @@ velo = {
 console.log(`Tyro, our friendly neighbourhood ${tyro.name} weighed ${tyro.weight}`);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(`Velo, our friendly neighbourhood ${velo.name} had a diet of ${velo.diet}`);
 
 // How long was a stegosaurus?
-console.log();
+console.log(`Stego, our friendly neighbourhood ${stego.name} was ${stego.length} long`);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(`Tyro, our friendly neighbourhood ${tyro.name} lived in the ${tyro.period} era`);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
