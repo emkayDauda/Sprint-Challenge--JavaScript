@@ -8,6 +8,7 @@
 */
 
 function consume(param1, param2, callback){
+  console.log(callback(param1, param2));
   return callback(param1, param2);
 }
 
