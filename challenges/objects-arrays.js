@@ -51,7 +51,8 @@ console.log(`Tyro, our friendly neighbourhood ${tyro.name} lived in the ${tyro.p
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+tyro.roar = () => `RAWERSRARARWERSARARARRRR!`
+console.log(tyro.roar());
 
 
 // ==== Arrays ====
