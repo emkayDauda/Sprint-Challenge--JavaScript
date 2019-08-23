@@ -38,7 +38,7 @@ velo = {
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(`Tyro, our friendly neighbourhood ${tyro.name} weighed ${tyro.weight}`);
 
 // What was the diet of a velociraptor?
 console.log();
